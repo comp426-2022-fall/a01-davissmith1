@@ -17,7 +17,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // Do not be nice about exiting.
 	if (err){
    	  console.error(err)
-  	  return;
+  	  return
 	}
 
 
